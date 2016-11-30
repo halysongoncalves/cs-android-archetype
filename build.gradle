@@ -1,0 +1,35 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.2'
+        classpath 'com.getkeepsafe.dexcount:dexcount-gradle-plugin:0.6.1'
+        classpath 'me.tatarka:gradle-retrolambda:3.4.0'
+    }
+}
+
+ext {
+    // Default project`s properties
+    compileSdkVersion = 25
+    buildToolsVersion = '25.0.1'
+    minSdkVersion = 16
+    targetSdkVersion = 25
+    versionCode = 1
+    versionName = '1.0.0'
+
+    // default dependencies versions
+    supportVersion = '25.0.1'
+    testButlerVersion = '1.1.0'
+    okHttpVersion = '3.4.2'
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
