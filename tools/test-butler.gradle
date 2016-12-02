@@ -1,5 +1,5 @@
 final butlerPackage = 'com.linkedin.android.testbutler'
-final butlerApkPath = "$rootDir/tools/test-butler/test-butler-app-${rootProject.ext.testButlerVersion}.apk"
+final butlerApkPath = "$rootDir/tools/test-butler/test-butler-app-${rootProject.ext.testButler}.apk"
 
 /**
  * This task installs the test-butler apk in all emulators if needed
