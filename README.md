@@ -21,7 +21,7 @@ This project is empty but it must contain a package. Remember to update the pack
 
 This project is configured to use a more recent version of the Gradle build system. Currently it is at `3.2.1`. 
 
-See more detailed explanation about the structure of build files and plugins in the [GRADLE.md](#/docs/GRADLE.md)
+See more detailed explanation about the structure of build files and plugins in the [GRADLE.md](/docs/GRADLE.md)
 
 ## Signing configuration
 
